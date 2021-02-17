@@ -1,8 +1,6 @@
 /* Common style */
-@import 'common/variables';
-@import 'common/fonts';
-@import 'common/mixins';
-@import 'common/global';
+@import 'common/_variables';
+@import 'common/_global';
 
 /* Blocks style */
 @import 'blocks/**/*.scss';
