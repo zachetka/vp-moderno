@@ -27,7 +27,7 @@ const destPath = 'docs';
 const path = {
     clean: destPath,
     src: {
-        html: `${srcPath}/pages/*.html`,
+        html: `${srcPath}/**/*.html`,
         css: `${srcPath}/styles/main.scss`,
         js: `${srcPath}/scripts/main.js`,
         sprite: `${srcPath}/images/sprite/**/*.svg`,
@@ -51,10 +51,10 @@ const path = {
         font: `${destPath}/assets/fonts`,
     },
     styleLibs: [
-        /*'node_modules/jquery/dist/jquery.js'*/
+        
     ],
     scriptLibs: [
-        /*'node_modules/bootstrap/js/dist/modal.js'*/
+        'node_modules/jquery/dist/jquery.js'
     ],
 };
 

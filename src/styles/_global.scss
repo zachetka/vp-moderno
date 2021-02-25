@@ -21,8 +21,8 @@ body {
 
 .container {
   margin: 0 auto;
-  padding: 0 10px;
-  max-width: 1220px;
+  padding: 0 15px;
+  max-width: 1200px;
 }
 
 a {
@@ -46,5 +46,5 @@ input:not([type=checkbox]):not([type=radio]), textarea {
   display: block;
   width: 100%;
   resize: none;
-  font-family: $fontFamilyFirst;
+  font-family: $fontFamily;
 }
