@@ -1,15 +1,22 @@
 /* Text */
-$fontFamily: 'Open Sans', sans-serif;
-$mainFontSize: 16px;
+$fontFamily: 'Roboto', sans-serif;
+$mainFontSize: 15px;
 $mainFontWeight: 400;
-$mainLineHeight: 1.625em;
+$mainLineHeight: 1.6;
 
 /* Colors */
 $white: #ffffff;
-$light: #edf4fb;
-$pale: #cbdbe8;
-$bright: #1085e4;
-$bright-light: #85c8ff;
-$primary: #7581a1;
-$primary-dark: #5a6789;
-$dark: #192b59;
+$black: #000000;
+
+$dark: #263238;
+$bright: #e74c3c;
+$primary: #8bc34a;
+
+$text: #546e7a;
+
+
+// $light: #edf4fb;
+// $pale: #cbdbe8;
+// $bright-light: #85c8ff;
+// $primary-dark: #5a6789;
+// $dark: #192b59;

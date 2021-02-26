@@ -5,31 +5,37 @@ html {
 *,
 *:before,
 *:after {
+  box-sizing: inherit;
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
 }
 
 body {
   font-family: $fontFamily;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  color: $dark;
+  font-size: $mainFontSize;
+  font-weight: $mainFontWeight;
+  line-height: $mainLineHeight;
+  color: $text;
 }
 
 .container {
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
-  max-width: 1200px;
 }
 
 a {
+  display: inline-block;
   text-decoration: none;
+  color: $text;
 }
 
 ul {
   list-style: none;
+}
+li {
+  font-size: 0;
+  line-height: 1;
 }
 
 img {
@@ -44,6 +50,6 @@ button {
 input:not([type=checkbox]):not([type=radio]), textarea {
   display: block;
   width: 100%;
-  resize: none;
   font-family: $fontFamily;
+  resize: none;
 }
