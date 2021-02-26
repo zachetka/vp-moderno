@@ -1,0 +1,42 @@
+.search {
+  padding: 156px 0 175px;
+  text-align: center;
+  color: $white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  &__title {
+    margin-bottom: 28px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1;
+  }
+  &__text {
+    margin-bottom: 48px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  &__form {
+    position: relative;
+    max-width: 670px;
+    margin: 0 auto;
+  }
+  &__form-field {
+    padding: 22px 60px 20px 25px;
+    border: none;
+    border-radius: 4px;    
+    &::placeholder {
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 1;
+      letter-spacing: 0.7px;
+      color: #90a4ae;
+    }
+  }
+  &__form-btn {
+    position: absolute;
+    top: 19px;
+    right: 20px;
+    background-color: transparent;
+    border: none;
+  }
+}
