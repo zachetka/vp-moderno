@@ -37,9 +37,9 @@ img {
 }
 
 button {
-  cursor: pointer;
-  border: none;
   line-height: 1;
+  border: none;
+  cursor: pointer;
 }
 
 input:not([type='checkbox']):not([type='radio']),
@@ -69,8 +69,6 @@ textarea {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.67;
+  text-align: center;
   color: $dark;
-  &--light {
-    color: $white;
-  }
 }

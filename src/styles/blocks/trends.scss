@@ -1,0 +1,28 @@
+.trends {
+  padding: 123px 0 121px;
+  &__title {
+    margin-bottom: 55px;
+  }
+  &__slider {
+    text-align: center;
+  }
+  &__slider-item {
+    margin-bottom: 67px;
+  }
+}
+
+.slick-dots {
+  display: flex;
+  justify-content: center;
+}
+.slick-dots button {
+  margin: 0 4px;
+  width: 16px;
+  height: 16px;
+  font-size: 0;
+  border-radius: 50%;
+  background-color: #e8e8e8;
+}
+.slick-dots .slick-active button {
+  background-color: $primary;
+}
