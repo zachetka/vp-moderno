@@ -90,12 +90,12 @@
         <div class="container-fluid">
             <h2 class="products__title title">Let’s Check Out Our Newest Release Prodcuts</h2>
             <div class="products__categories">
-                <button class="products__categories-btn" type="button" data-filter="all">All</button>
-                <button class="products__categories-btn" type="button" data-filter=".category-wordpress">WordPress</button>
-                <button class="products__categories-btn" type="button" data-filter=".category-joomla">Joomla</button>
-                <button class="products__categories-btn" type="button" data-filter=".category-plugins">Plugins</button>
-                <button class="products__categories-btn" type="button" data-filter=".category-component">Component</button>
-                <button class="products__categories-btn" type="button" data-filter=".category-psd">PSD</button>
+                <button class="products__categories-btn" data-filter="all" type="button">All</button>
+                <button class="products__categories-btn" data-filter=".category-wordpress" type="button">WordPress</button>
+                <button class="products__categories-btn" data-filter=".category-joomla" type="button">Joomla</button>
+                <button class="products__categories-btn" data-filter=".category-plugins" type="button">Plugins</button>
+                <button class="products__categories-btn" data-filter=".category-component" type="button">Component</button>
+                <button class="products__categories-btn" data-filter=".category-psd" type="button">PSD</button>
             </div>
             <div class="products__cards">
                 <div class="products__card card mix category-wordpress category-new">
@@ -252,8 +252,8 @@
                 </div>
             </div>
             <div class="products__bottom">
-                <button class="products__bottom-btn" type="button" data-filter=".category-new">All New Items</button>
-                <button class="products__bottom-btn" type="button" data-filter=".category-popular">Popular Items</button>
+                <button class="products__bottom-btn" data-filter=".category-new" type="button">All New Items</button>
+                <button class="products__bottom-btn" data-filter=".category-popular" type="button">Popular Items</button>
             </div>
         </div>
     </section>
@@ -426,30 +426,59 @@
             <div class="advantages__items">
                 <div class="advantages__item">
                     <div class="advantages__item-img">
-                        <img src="/src/images/icons/lock.png" alt="icon" class="advantages__item-icon">
+                        <img class="advantages__item-icon" src="/src/images/icons/lock.png" alt="icon">
                     </div>
-                    <div class="advantages__item-title">Easily Buy & Sell</div>
+                    <h3 class="advantages__item-title">Easily Buy & Sell</h3>
                     <div class="advantages__item-descr">
                         Dorem Ipsum is simply dummy text of the pring and typesetting industry. Lorem Ipsum has been the industry's standaum.
                     </div>
                 </div>
                 <div class="advantages__item">
                     <div class="advantages__item-img advantages__item-img--center">
-                        <img src="/src/images/icons/gift.png" alt="icon" class="advantages__item-icon">
+                        <img class="advantages__item-icon" src="/src/images/icons/gift.png" alt="icon">
                     </div>
-                    <div class="advantages__item-title advantages__item-title--center">Quality Products</div>
+                    <h3 class="advantages__item-title advantages__item-title--center">Quality Products</h3>
                     <div class="advantages__item-descr">
                         Dorem Ipsum is simply dummy text of the pring and typesetting industry. Lorem Ipsum has been the industry's standaum.
                     </div>
                 </div>
                 <div class="advantages__item">
                     <div class="advantages__item-img">
-                        <img src="/src/images/icons/heart.png" alt="icon" class="advantages__item-icon advantages__item-icon--heart">
+                        <img class="advantages__item-icon advantages__item-icon--heart" src="/src/images/icons/heart.png" alt="icon">
                     </div>
-                    <div class="advantages__item-title">100% Secure Payment</div>
+                    <h3 class="advantages__item-title">100% Secure Payment</h3>
                     <div class="advantages__item-descr">
                         Dorem Ipsum is simply dummy text of the pring and typesetting industry. Lorem Ipsum has been the industry's standaum.
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Author -->
+    <section class="author">
+        <div class="author__info">
+            <h3 class="author__info-text">Over <span class="author__info-text author__info-text--bold">20,000</span> Author Are Involved Here!</h3>
+            <a class="author__info-btn" href="#">Become A Author</a>
+        </div>
+    </section>
+
+    <!-- Tutorials -->
+    <section class="tutorials">
+        <div class="container">
+            <h2 class="tutorials__title title">Free Monthly Tutorials To Help You With Your Project </h2>
+            <div class="tutorials__items">
+                <div class="tutorials__item">
+                    <a class="tutorials__item-img" href="#" style="background-image: url('/src/images/content/tutorial-1.jpg');"></a>
+                    <a class="tutorials__item-title" href="#">Web Design Tutorials</a>
+                </div>
+                <div class="tutorials__item">
+                    <a class="tutorials__item-img" href="#" style="background-image: url('/src/images/content/tutorial-2.jpg');"></a>
+                    <a class="tutorials__item-title" href="#">WordPress Tutorials</a>
+                </div>
+                <div class="tutorials__item">
+                    <a class="tutorials__item-img" href="#" style="background-image: url('/src/images/content/tutorial-3.jpg');"></a>
+                    <a class="tutorials__item-title" href="#">HTML & CSS Tutorials</a>
                 </div>
             </div>
         </div>

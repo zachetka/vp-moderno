@@ -1,0 +1,26 @@
+.tutorials {
+  padding: 66px 0 121px;
+  &__title {
+    margin-bottom: 45px;
+  }
+  &__items {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item {
+    max-width: 370px;
+    width: 100%;
+    background-color: #f8f8f8;
+    text-align: center;
+  }
+  &__item-img {
+    display: block;
+    min-height: 270px;
+  }
+  &__item-title {
+    padding: 40px 15px;
+    font-size: 24px;
+    font-weight: 700;    
+    color: $dark;
+  }
+}

@@ -1,0 +1,32 @@
+.author {
+  padding: 245px 0 296px;
+  background-image: url('/src/images/author-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  &__info {
+    margin: 0 auto;
+    max-width: 653px;
+    padding: 71px 60px 82px;
+    background-color: $primary;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__info-text {
+    max-width: 260px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: $white;
+    &--bold {
+      font-weight: 700;
+    }
+  }
+  &__info-btn {
+    padding: 24px 43px;
+    background-color: $white;
+    font-size: 18px;
+    font-weight: 400;
+    color: $dark;
+  }
+}
