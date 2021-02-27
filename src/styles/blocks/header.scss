@@ -1,1 +1,52 @@
-
+.header {
+  &__top-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+  }
+  &__help {
+    margin-right: 27px;
+    margin-left: auto;
+  }
+  &__help-link {
+    color: $bright;
+  }
+  &__user {
+  }
+  &__user-basket {
+  }
+  &__user-btn {
+    width: 72px;
+    padding: 10px 0 9px;
+    font-size: 12px;
+    text-align: center;
+    color: $white;
+    border-radius: 4px;
+    &--log {
+      margin-right: 7px;
+      background-color: $primary;
+    }
+    &--reg {
+      background-color: $bright;
+    }
+  }
+  &__nav {
+    background-color: $dark;
+  }
+  &__menu {
+    padding: 23px 0;
+  }
+  &__menu-item {
+    display: inline-block;
+    &:not(:last-child) {
+      margin-right: 40px;
+    }
+  }
+  &__menu-link {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    color: $white;
+  }
+}
