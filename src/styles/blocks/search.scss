@@ -23,7 +23,8 @@
   &__form-field {
     padding: 22px 60px 20px 25px;
     border: none;
-    border-radius: 4px;    
+    border-radius: 4px;  
+    box-shadow: 0px 1px 10px 0 rgba(124, 178, 64, 0.75);  
     &::placeholder {
       font-size: 14px;
       font-weight: 500;

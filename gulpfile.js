@@ -54,7 +54,8 @@ const path = {
         
     ],
     scriptLibs: [
-        'node_modules/jquery/dist/jquery.js'
+        'node_modules/jquery/dist/jquery.js',
+        'node_modules/mixitup/dist/mixitup.js'
     ],
 };
 

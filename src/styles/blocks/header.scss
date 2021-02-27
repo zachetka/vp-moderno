@@ -20,7 +20,6 @@
     width: 72px;
     padding: 10px 0 9px;
     font-size: 12px;
-    line-height: 1;
     text-align: center;
     color: $white;
     border-radius: 4px;
@@ -40,7 +39,6 @@
   }
   &__menu-item {
     display: inline-block;
-    // padding: 23px 0;
     &:not(:last-child) {
       margin-right: 40px;
     }
