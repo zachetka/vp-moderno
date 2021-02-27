@@ -5,30 +5,29 @@ html {
 *,
 *:before,
 *:after {
+  box-sizing: inherit;
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
 }
 
 body {
   font-family: $fontFamily;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  color: $dark;
-}
-
-.container {
-  margin: 0 auto;
-  padding: 0 15px;
-  max-width: 1200px;
+  font-size: $mainFontSize;
+  font-weight: $mainFontWeight;
+  line-height: $mainLineHeight;
+  color: $text;
 }
 
 a {
+  display: inline-block;
   text-decoration: none;
+  color: $text;
 }
 
-ul {
+ul,
+li {
+  font-size: 0;
+  line-height: 1;
   list-style: none;
 }
 
@@ -39,11 +38,39 @@ img {
 
 button {
   cursor: pointer;
+  border: none;
+  line-height: 1;
 }
 
-input:not([type=checkbox]):not([type=radio]), textarea {
+input:not([type='checkbox']):not([type='radio']),
+textarea {
   display: block;
   width: 100%;
-  resize: none;
   font-family: $fontFamily;
+  resize: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.container-fluid {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 30px;
+  @media (max-width: 720px) {
+    padding: 0 15px;
+  }
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.67;
+  color: $dark;
+  &--light {
+    color: $white;
+  }
 }
