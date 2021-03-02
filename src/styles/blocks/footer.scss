@@ -1,0 +1,94 @@
+.footer {
+  background-color: $dark;
+  &__content {
+    padding: 116px 0 100px;
+    border-bottom: 1px solid #424d53;
+  }
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__col {
+  }
+  &__title {
+    position: relative;
+    margin-bottom: 60px;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1;
+    color: $white;
+    &::before {
+      position: absolute;
+      top: 44px;
+      left: 0;
+      width: 51px;
+      height: 3px;
+      background-color: $primary;
+      content: '';
+    }
+  }
+  &__text {
+    max-width: 261px;
+    margin-bottom: 36px;
+  }
+  &__contact {
+    position: relative;
+    margin-bottom: 27px;
+    margin-left: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.71;
+    color: $white;
+  }
+  &__list {
+  }
+  &__list-item {
+    font-size: 15px;
+    line-height: 2.4;
+    color: $text-light;
+    margin-left: 21px;
+  }
+  &__list-link {
+  }
+  &__social {
+    margin-bottom: 40px;
+  }
+  &__social-item {
+  }
+  &__social-link {
+  }
+  &__form {
+    width: 261px;
+    position: relative;
+  }
+  &__form-title {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1;
+    color: $white;
+    margin-bottom: 20px;
+  }
+  &__form-field {
+    padding: 14px 43px 15px 16px;
+    background-color: #2f3c43;
+    &::placeholder {
+      font-size: 11px;
+      font-weight: 400;
+      line-height: 1;
+      color: #697378;
+    }
+  }
+  &__form-btn {
+    width: 43px;
+    height: 38px;
+    background-color: $primary;
+    position: absolute;
+    top: 40px;
+    right: 0;
+  }
+  &__copy {
+    padding: 24px 15px 30px;
+    text-align: center;
+    color: #919699;
+  }
+}
