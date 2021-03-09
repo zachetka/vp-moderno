@@ -13,8 +13,72 @@
     color: $bright;
   }
   &__user {
+    display: flex;
+    align-items: center;
   }
-  &__user-basket {
+  &__user-circle {
+    position: relative;
+    width: 34px;
+    height: 34px;
+    background-color: #f5f5f5;
+    border-radius: 50%;
+    &::before {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      font-size: 14px;
+      color: $icon;
+      transform: translate(-50%, -50%);
+    }
+    & + .header__user-circle {
+      margin-left: 15px;
+    }
+  }
+  &__user-num {
+    position: absolute;
+    top: -8px;
+    right: -5px;
+    width: 18px;
+    height: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: center;
+    color: $white;
+    background-color: #fcb322;
+    border-radius: 50%;
+    &--message {
+      background-color: #ef6c00;
+    }
+    &--basket {
+      background-color: #95c85a;
+    }
+  }
+  &__user-profile {
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__user-img {
+    width: 34px;
+    height: 34px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 14px;
+  }
+  &__user-info {
+    font-size: 14px;
+    line-height: 1.71;
+  }
+  &__user-name {    
+    font-weight: 500;
+    color: #222222;
+  }
+  &__user-money {
+    font-weight: 700;
+    color: $primary;
   }
   &__user-btn {
     width: 72px;
@@ -25,6 +89,7 @@
     border-radius: 4px;
     &--log {
       margin-right: 7px;
+      margin-left: 26px;
       background-color: $primary;
     }
     &--reg {

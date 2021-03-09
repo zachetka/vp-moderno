@@ -38,7 +38,7 @@
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
-  speak: never;
+  // speak: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -50,6 +50,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-envelope-o:before {
+  content: "\f003";
+}
 .icon-map-marker:before {
   content: "\f041";
 }
@@ -58,6 +61,9 @@
 }
 .icon-phone:before {
   content: "\f095";
+}
+.icon-bell-o:before {
+  content: "\f0a2";
 }
 .icon-bolt:before {
   content: "\f0e7";
