@@ -52,22 +52,35 @@
                         Talk to an expert:
                         <a class="header__help-phone" href="tel:61383766284">+61 3 8376 6284</a>
                     </div>
-                    <div class="header__user">
-                        <a class="header__user-notification header__user-circle icon-bell-o" href="#">
-                            <span class="header__user-num header__user-num--notification">8</span></span></a>
-                        <a class="header__user-message header__user-circle icon-envelope-o" href="#">
-                            <span class="header__user-num header__user-num--message">5</span></span></a>
-                        <a class="header__user-basket header__user-circle icon-shopping-cart" href="#">
-                            <span class="header__user-num header__user-num--basket">3</span></span></a>
-                        <div class="header__user-profile">
-                            <img src="/src/images/content/user-avatar.jpg" alt="avatar" class="header__user-img">
-                            <div class="header__user-info">
-                                <p class="header__user-name">Mike Hussy</p>
-                                <p class="header__user-money">$171.00</p>
+                    <div class="header__user user">
+                        <a class="user__circle icon-bell-o active" href="#">
+                            <span class="user__num user__num--notice">8</span></span></a>
+                        <a class="user__circle icon-envelope-o active" href="#">
+                            <span class="user__num user__num--message">5</span></span></a>
+                        <a class="user__circle icon-shopping-cart active" href="#">
+                            <span class="user__num user__num--basket">3</span></span></a>
+                        <a class="user__profile" href="#">
+                            <img src="/src/images/content/user-avatar.jpg" alt="avatar" class="user__avatar">
+                            <div class="user__info">
+                                <p class="user__info-name">Mike Hussy</p>
+                                <p class="user__info-money">$171.00</p>
                             </div>
                         </div>
-                        <a class="header__user-btn header__user-btn--log" href="#">Login</a>
-                        <a class="header__user-btn header__user-btn--reg" href="#">Register</a>
+                        <div class="user__menu">
+                            <ul class="user__menu-list">
+                                <li class="user__menu-item"><a href="#" class="user__menu-link">Profile Page</a></li>
+                                <li class="user__menu-item"><a href="#" class="user__menu-link">Portfolio</a></li>
+                                <li class="user__menu-item"><a href="#" class="user__menu-link">Account Setting</a></li>
+                                <li class="user__menu-item"><a href="#" class="user__menu-link">Downloads</a></li>
+                                <li class="user__menu-item"><a href="#" class="user__menu-link">Wishlist</a></li>
+                                <li class="user__menu-item"><a href="#" class="user__menu-link">Upload Item</a></li>
+                                <li class="user__menu-item"><a href="#" class="user__menu-link">Statement</a></li>
+                                <li class="user__menu-item"><a href="#" class="user__menu-link">Withdraws</a></li>
+                            </ul>
+                        </div>
+                        <a class="user__btn user__btn--login off" href="#">Login</a>
+                        <a class="user__btn user__btn--logout on" href="#">Logout</a>
+                        <a class="user__btn user__btn--register off" href="#">Register</a>
                     </div>
                 </div>
             </div>
